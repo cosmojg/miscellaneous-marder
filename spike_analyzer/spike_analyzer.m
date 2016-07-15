@@ -2,7 +2,8 @@
 % But if it's something to do with Spike2, ask Jess or someone else.
 % I don't know anything about that stuff.
 
-% SET THE THRESHOLD FOR SPIKE CLUSTERS
+% SET THE INSTFREQ THRESHOLD FOR SPIKE CLUSTERS
+% (All spikes with instFreq < threshold will be classified as a cluster.)
 threshold = 5;
 
 % SET THE NAME OF THE INPUT SPIKES FILE
